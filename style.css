@@ -19,3 +19,35 @@
 .container{
     margin-bottom: 100px;
 }
+.cat1, .cat2, .cat3{
+    padding: 10px 50px;
+}
+.cat1{
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 8px;
+}
+.cat2{
+    background-image: linear-gradient(blue,cyan) ;
+    border-radius: 8px;
+}
+.cat3{
+    background-image: linear-gradient(rgb(90, 12, 12),red);
+    border-radius: 8px;
+    
+}
+.card{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    
+}
+#contact h6{
+    color: grey;
+}
+footer{
+    text-align: center;
+}
